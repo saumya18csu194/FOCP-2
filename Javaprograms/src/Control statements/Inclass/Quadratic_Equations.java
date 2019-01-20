@@ -1,5 +1,8 @@
-import java.util.*;
-public class Quadratic_Equations
+/* author :SAUMYA ACHANTANI 18CSU194
+   version:1.0.0
+   purpose:1.	Write a Java program to solve quadratic equations (use if, else if and else) */
+ import java.util.*;
+ class Quadratic_Equations
 {
     public static void main(String args[])
       {

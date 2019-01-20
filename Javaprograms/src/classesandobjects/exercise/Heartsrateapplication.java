@@ -1,4 +1,11 @@
-import java.util.*;
+/* author :SAUMYA ACHANTANI 18CSU194
+   version:1.0.0
+   purpose:Create a class called HeartRates. The class attributes should include the person’s first name, last name and date of birth (consisting of separate attributes for the month, day and year of birth). The class should have a constructor that receives this data as parameters. For each attribute provide set and get methods. The class also should include the following methods:
+a)	a method that calculates and returns the person’s age (in years)
+b)	a method that calculates and returns the person’s maximum heart rate (the formula for calculating your maximum heart rate in beats per minute is 220 minus your age in Years) 
+c)	a method that calculates and returns the person’s target heart rate (target heart rate is a range that’s 50–85% of your maximum heart rate. 
+ */
+    import java.util.*;
 class Heart
 {
 	private String first_name;

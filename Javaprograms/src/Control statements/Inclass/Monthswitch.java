@@ -1,13 +1,17 @@
 import java.util.Scanner;
-class Monthusingswitch
+class Monthswitch
 {
 public static void main(String args[])
 {
+	char ch='y';
  Scanner in = new Scanner(System.in);
-System.out.print("Enter month's number: ");
+ while(ch=='y')
+ {
+System.out.print("Enter month's number:(1 to 12) ");
 int monthNumber;
 monthNumber = in.nextInt();
- switch (monthNumber) {
+ switch (monthNumber) 
+ {
  case 1:
  System.out.println("January");
 break;
@@ -46,7 +50,9 @@ System.out.println("December");
 break;
 default:
 System.out.println("Invalid month.");
-break;
+}
+System.out.println("do you wish to continue?(enter y for YES,any other character for NO)");
+ch=in.next().charAt(0);
 }
 }
 }

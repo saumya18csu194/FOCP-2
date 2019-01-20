@@ -1,3 +1,6 @@
+/* author :SAUMYA ACHANTANI 18CSU194
+   version:1.0.0
+   purpose: Write a Java program to display the following character rhombus structure. */
 import java.util.Scanner;
 class Pattern1
  {
