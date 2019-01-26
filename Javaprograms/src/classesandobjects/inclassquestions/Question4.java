@@ -54,12 +54,12 @@ class Question4 /*EmployeeTest*/
 	System.out.print("Insert a number: ");
 	int ad= Sl.nextInt();
 		System.out.println("enter address");
-Sl.nextLine();
+    Sl.nextLine();
 	add=Sl.nextLine();
     System.out.println("enter salary");
     sal=Sl.nextLong();
 	e[i]= new Employee(na,yr,add,sal);
-		}
+	}
 	System.out.println("Name\tYear\tAddress");
 	for (i=0;i<c;i++)
 	{

@@ -1,46 +1,42 @@
-/* author :SAUMYA ACHANTANI 18CSU194
-version:1.0.0
-PURPOSE-Write a program to calculate the distance between two points (x1, y1) and (x2, y2). 
-All numbers and return values should be of type double. */
-import java.util.*;  //class definition
-import java.lang.Math.*;  //for using square root and power function
+import java.util.*;
+import java.lang.Math.*;
 class Point
 {
 private double x1;
 private double x2;
-Point() //non parameterised constructor
+Point()
 {
 	this.x1=0;
 	this.x2=0;
 }
-Point(double x1,double x2) //parameterised constructor
+Point(double x1,double x2)
 {
 	this.x1=x1;
 	this.x2=x2;
 }
-public void setvalue1(double x1)
+void setvalue1(double x1)
 {
   this.x1=x1;
 }
-public void setvalue2(double x2)
+ void setvalue2(double x2)
 {
   this.x2=x2;
 }  
-public double getvalue1()
+double getvalue1()
 {
 	return x1;
 }
-public double getvalue2()
+double getvalue2()
 {
 	return x2;
 }
 double calcdistance(Point p2) 
 {
-double dist=Math.sqrt(Math.pow((getvalue1()-p2.getvalue1()),2)+Math.pow((getvalue2()-p2.getvalue2()),2)); //root((x1-x2)^2+(y1-y2)^2)
+double dist=Math.sqrt(Math.pow((getvalue1()-p2.getvalue1()),2)+Math.pow((getvalue2()-p2.getvalue2()),2));
 return dist;
 }
 }
-class Distance //class application
+class Distance
 {
 public static void main(String args[])
 {

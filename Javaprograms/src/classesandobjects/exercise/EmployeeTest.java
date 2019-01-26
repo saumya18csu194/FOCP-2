@@ -1,5 +1,9 @@
+/* author :SAUMYA ACHANTANI 18CSU194
+  version:1.0.0
+  purpose:	Repeat question 3 of in-class practice questions with Address defined as a separate class and used in Employee.
+  Address class should include the following instance variables: First Line and Second Line and Pin code.
+  Constructor and other member function definitions of class Employee should be modified accordingly.  */
 import java.util.*;
-
 class Address
 {
 	String fline,sline;
@@ -11,15 +15,15 @@ class Address
 		this.pin=p;
 	}
 
-	String getfirst()
+	String getFirst()
 	{
 		return fline;
 	}
-	String getsecond()
+	String getSecond()
 	{
 		return sline;
 	}
-	long getpin()
+	long getPin()
 	{
 		return pin;
 	}
