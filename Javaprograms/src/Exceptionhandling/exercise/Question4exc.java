@@ -1,7 +1,7 @@
 public class Question4exc
 {
-	private static Int i = null;	
-	public static void main(String[] args) 
+	private static int i = null;	
+	public static void main(String[] args) throws exception
 	{
 		try {
 			System.out.println(i.toString());
