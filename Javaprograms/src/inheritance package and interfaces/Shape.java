@@ -1,4 +1,4 @@
-abstract class Shape
+class Shape
 {
 	String color;
 	Boolean filled;

@@ -1,3 +1,7 @@
+/* author :SAUMYA ACHANTANI 18CSU194
+version:1.0.1 **modified**
+PURPOSE-Create a class Circle with instance variable radius and member functions:
+a)	area( ) b) circumference( ) c) display( ). Write a test application named CircleTest that demonstrates class Circle’s capabilities.  */
 import java.util.*;
 class Circle
 {
@@ -10,14 +14,14 @@ class Circle
 	{
 	this.radius=r;
 	}
-	public double area(float r)
+	public double area()
 	{
-	double area=3.14*r*r;
+	double area=3.14*radius*radius;
 	return area;
     }
-	public double circumference(float r)
+	public double circumference()
 	{
-	double circum=2*3.14*r;
+	double circum=2*3.14*radius;
 	return circum;
     }
 }
@@ -30,9 +34,16 @@ class Question1
 	Scanner S=new Scanner(System.in);
 	System.out.println("enter radius");
     r=S.nextFloat();
-	Circle C=new Circle();
-	area=C.area(r);
-	cir=C.circumference(r);
+	Circle C=new Circle(r);
+	area=C.area();
+	cir=C.circumference();
+	System.out.println("*************CIRCLE 1***************");
+	System.out.println("area is " +area);
+	System.out.println("circumference is " +cir);
+	Circle C1=new Circle();
+	area=C1.area();
+	cir=C1.circumference();
+	System.out.println("*************CIRCLE 2***************"); //default value of radius 
 	System.out.println("area is " +area);
 	System.out.println("circumference is " +cir);
 	}
